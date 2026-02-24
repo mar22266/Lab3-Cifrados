@@ -73,7 +73,7 @@ def testTripleDesCbcGeneraOutputDesdeTxtYRecuperaOriginal():
         mensaje = f.read()
 
     clave = generarClaveTripleDes(24)
-    cifrado = cifrarTripleDesCbc(mensaje, clave)  # iv + ciphertext
+    cifrado = cifrarTripleDesCbc(mensaje, clave)
     os.makedirs(os.path.dirname(rutaSalidaCipher), exist_ok=True)
 
     with open(rutaSalidaCipher, "wb") as f:
