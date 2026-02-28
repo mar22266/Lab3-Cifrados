@@ -4,7 +4,7 @@ from typing import Union
 from Crypto.Cipher import DES3
 
 
-# funcion que genera una clave des de 8 bytes
+# funcion que genera una clave des de 8 bytes s re usa la funcion para generar "nonce en demo 31"
 def generarClaveDes() -> bytes:
     return secrets.token_bytes(8)
 
