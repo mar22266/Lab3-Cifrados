@@ -1,3 +1,5 @@
+# Laboratorio Block Cipher
+
 ## Como correr el proyecto y validar que todo funciona
 
 ### instalar dependencias
@@ -222,9 +224,9 @@ si. con una imagen con areas uniformes o patrones claros, se nota asi:
     <th>CBC</th>
   </tr>
   <tr>
-    <td><img src="imagenes/renders/tux.png" width="250"/></td>
-    <td><img src="imagenes/renders/tuxAesEcb.png" width="250"/></td>
-    <td><img src="imagenes/renders/tuxAesCbc.png" width="250"/></td>
+    <td><img src="images/renders/tux.png" width="250"/></td>
+    <td><img src="images/renders/tuxAesEcb.png" width="250"/></td>
+    <td><img src="images/renders/tuxAesCbc.png" width="250"/></td>
   </tr>
 </table>
 
